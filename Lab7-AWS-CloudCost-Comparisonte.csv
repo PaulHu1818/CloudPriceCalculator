@@ -1,0 +1,38 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,1352.06,16224.72,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+Lab7-AWS-CloudCost-Comparisonte,US East (N. Virginia),,Amazon EC2 ,0,369.399974,4432.80,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 2, Peak: 10, Duration of peak: 8 Hr 0 Min)), Advance EC2 instance (m6i.large), Pricing strategy (On-Demand), Enable monitoring (disabled), EBS Storage amount (64 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Lab7-AWS-CloudCost-Comparisonte,US West (Oregon),,Amazon EC2 ,0,369.399974,4432.80,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Daily, (Workload days: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Baseline: 2, Peak: 10, Duration of peak: 8 Hr 0 Min)), Advance EC2 instance (m6i.large), Pricing strategy (On-Demand), Enable monitoring (disabled), EBS Storage amount (64 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Lab7-AWS-CloudCost-Comparisonte,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,141.44,1697.28,USD,,"Storage amount (100 GB), Storage volume (General Purpose SSD (gp2)), Nodes (1), Instance Type (db.m6i.large), Utilization (On-Demand only) (730 Hours/Month), Deployment Option (Single-AZ), Pricing Model (OnDemand)"
+Lab7-AWS-CloudCost-Comparisonte,US West (Oregon),,Amazon RDS for PostgreSQL,0,141.44,1697.28,USD,,"Storage amount (100 GB), Storage volume (General Purpose SSD (gp2)), Nodes (1), Instance Type (db.m6i.large), Utilization (On-Demand only) (730 Hours/Month), Deployment Option (Single-AZ), Pricing Model (OnDemand)"
+Lab7-AWS-CloudCost-Comparisonte,US West (Oregon),,S3 Standard,0,47.1,565.20,USD,,S3 Standard storage (2048 GB per month)
+Lab7-AWS-CloudCost-Comparisonte,US West (Oregon),,Data Transfer,0,0,0.00,USD,,
+Lab7-AWS-CloudCost-Comparisonte,US East (N. Virginia),,S3 Standard,0,47.1,565.20,USD,,S3 Standard storage (2048 GB per month)
+Lab7-AWS-CloudCost-Comparisonte,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,
+Lab7-AWS-CloudCost-Comparisonte,US East (N. Virginia),,Amazon CloudFront,0,0,0.00,USD,,"Data transfer out to internet (0 GB per month), Data transfer out to origin (0 GB per month), Number of requests (HTTPS) (0 per month)"
+Lab7-AWS-CloudCost-Comparisonte,US East (N. Virginia),,Amazon API Gateway,0,10,120.00,USD,,"HTTP API requests units (millions), Average size of each request (34 KB), REST API request units (millions), Cache memory size (GB) (None), WebSocket message units (thousands), Average message size (32 KB), Requests (10 per month)"
+Lab7-AWS-CloudCost-Comparisonte,US East (N. Virginia),,AWS Lambda,0,0,0.00,USD,,"Architecture (x86), Architecture (x86), Invoke Mode (Buffered), Amount of ephemeral storage allocated (512 MB), Number of requests (1000000 per month)"
+Lab7-AWS-CloudCost-Comparisonte,US East (N. Virginia),,DynamoDB on-demand capacity,0,3.44,41.28,USD,,"Table class (Standard), Average item size (all attributes) (1 KB), Data storage size (10 GB)"
+Lab7-AWS-CloudCost-Comparisonte,US East (N. Virginia),,Application Load Balancer,0,17.009999999999998,204.12,USD,,Number of Application Load Balancers (1)
+Lab7-AWS-CloudCost-Comparisonte,US West (Oregon),,Application Load Balancer,0,17.009999999999998,204.12,USD,,Number of Application Load Balancers (1)
+Lab7-AWS-CloudCost-Comparisonte,US West (Oregon),,Amazon CloudWatch,0,26.225,314.70,USD,,"Number of mobile OTEL events and spans or spans per visit (70), Mobile sampling rate (1), Number of Metrics (includes detailed and custom metrics) (), Standard Logs: Data Ingested (50 GB), Number of Dashboards (2), Number of Standard Resolution Alarm Metrics (10), Number of High Resolution Alarm Metrics (0), Number of composite alarms (0), Number of alarms defined with a Metrics Insights query (0)"
+Lab7-AWS-CloudCost-Comparisonte,US East (N. Virginia),,Amazon CloudWatch,0,26.225,314.70,USD,,"Number of mobile OTEL events and spans or spans per visit (70), Mobile sampling rate (1), Standard Logs: Data Ingested (50 GB), Number of Standard Resolution Alarm Metrics (10), Number of Dashboards (2), Number of High Resolution Alarm Metrics (0), Number of composite alarms (0), Number of alarms defined with a Metrics Insights query (0)"
+Lab7-AWS-CloudCost-Comparisonte,US East (N. Virginia),,AWS CodeBuild,0,15,180.00,USD,,"AWS CodeBuild Compute Type (On-Demand EC2), Number of builds in a month (300), Search Instance Type (general1.small), Operating system (Linux)"
+Lab7-AWS-CloudCost-Comparisonte,US East (N. Virginia),,AWS Data Transfer,0,83.16,997.92,USD,,"DT Inbound: Not selected (0 TB per month), DT Outbound: Internet (924 GB per month), DT Intra-Region: (0 TB per month), Data transfer cost (83.16)"
+Lab7-AWS-CloudCost-Comparisonte,US East (N. Virginia),,Amazon Route 53,0,4.5,54.00,USD,,Hosted Zones (1)
+Lab7-AWS-CloudCost-Comparisonte,US East (N. Virginia),,AWS CodePipeline,0,1,12.00,USD,,"Number of active pipelines of type V1 used per account per month (2), Number of action execution minutes used in pipeline of type V2 per account per month (0)"
+Lab7-AWS-CloudCost-Comparisonte,US East (N. Virginia),,SageMaker Studio Notebooks,0,4,48.00,USD,,"Instance name (ml.t3.medium), Number of data scientist(s) (1), Number of Studio Notebook instances per data scientist (1), Studio Notebook hour(s) per day (4), Studio Notebook day(s) per month (20)"
+Lab7-AWS-CloudCost-Comparisonte,US East (N. Virginia),,SageMaker On-Demand Notebook Instances,0,4.8,57.60,USD,,"Storage (General Purpose SSD (gp2)), Instance name (ml.t3.medium), Number of data scientist(s) (1), Number of On-Demand Notebook instances per data scientist (1), On-Demand Notebook hour(s) per day (2), On-Demand Notebook day(s) per month (20)"
+Lab7-AWS-CloudCost-Comparisonte,US West (Oregon),,SageMaker Studio Notebooks,0,4,48.00,USD,,"Instance name (ml.t3.medium), Number of data scientist(s) (1), Number of Studio Notebook instances per data scientist (1), Studio Notebook hour(s) per day (4), Studio Notebook day(s) per month (20)"
+Lab7-AWS-CloudCost-Comparisonte,US West (Oregon),,SageMaker On-Demand Notebook Instances,0,4.8,57.60,USD,,"Storage (General Purpose SSD (gp2)), Instance name (ml.t3.medium), Number of data scientist(s) (1), Number of On-Demand Notebook instances per data scientist (1), On-Demand Notebook hour(s) per day (2), On-Demand Notebook day(s) per month (20)"
+Lab7-AWS-CloudCost-Comparisonte,US West (Oregon),,AWS CodeBuild,0,15,180.00,USD,,"AWS CodeBuild Compute Type (On-Demand EC2), Number of builds in a month (300), Search Instance Type (general1.small), Operating system (Linux)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
